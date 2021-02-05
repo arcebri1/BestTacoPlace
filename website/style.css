@@ -3,10 +3,17 @@ text might bleed past the bootstrap grid boxes. Please let me know if that happe
 we'll find a way on how to restrict within a specific height and width. Good luck! Thank you."*/
 
 /*overall body color*/
+
 body {
+  background-image: url("taco3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* body {
 	background-color:#0F7173;
 	padding: 30px;
-}
+} */
 
 .my-container {
 	border: 1px solid white;
