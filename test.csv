@@ -1,5 +1,0 @@
-,error
-code,VALIDATION_ERROR
-description,'{client_id_yelp}' is not a 'business-id-or-alias'
-field,business_id
-instance,{client_id_yelp}
