@@ -5,19 +5,16 @@ we'll find a way on how to restrict within a specific height and width. Good luc
 /*overall body color*/
 
 body {
-  background-image: url("taco3.jpg");
+  padding-top: 30px;
+  background-image: url("nba.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-/* body {
-	background-color:#0F7173;
-	padding: 30px;
-} */
+    }
 
 .my-container {
-	border: 1px solid white;
-	}
+	border: 1px solid rgb(0, 0, 0);
+    padding-top: 30px;
+    }
 
 .my-row {
 	border: 3px solid white;
@@ -25,7 +22,7 @@ body {
 
 .my-col {
 	border: 3px solid white;
-	background-color: #f2f2f2;
+	background-color: #faf9f9;
 }
 
 /*#body is the 2nd row, Map area, under the menu*/
@@ -50,7 +47,7 @@ body {
 
 /*#bodynav2 is a link in menu indicating the current page you're in*/
 .bodynav2 {
-	background-color: #0F7173;
+	background-color: #f07109;
 	font-color: #FFFFFF;
 	font-weight: bold;
 	padding: 0px
