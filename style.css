@@ -6,7 +6,7 @@ we'll find a way on how to restrict within a specific height and width. Good luc
 
 body {
     padding-top: 30px;
-    background-image: url("nba.png");
+    background-image: url("images/nba.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
       }
