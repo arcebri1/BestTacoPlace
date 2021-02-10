@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
+
+</html>
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" type="text/css" href="../static/style.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>2019 NBA Winner</title>
+	<title>2019 NBA Winner</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<a class="navbar-brand" href="/">Predicting 2019 NBA Winner</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +22,7 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item dropdown">
+				<li class="nav-item dropdown dropleft">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Menu
@@ -28,46 +31,61 @@
 						<a class="dropdown-item" href="/">Home</a>
 						<a class="dropdown-item" href="/tableau">Tableau Analysis</a>
 						<a class="dropdown-item" href="/ml">Machine Learning</a>
+						<a class="dropdown-item" href="/map">Map</a>
 					</div>
 				</li>
 			</ul>
 		</div>
 	</nav>
 
-    <div class="row my-row">
+	<section class="page-section" id="services">
+		<div class="container">
+			<div class="text-center">
+				<h2 class="section-heading text-uppercase">Services</h2>
+				<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+			</div>
+		</div>
+	</section>
+
+	<div class="row my-row">
 		<div class="col-md-12 my-col" id="body">
 
 			<!--Insert visualized data thingy code here-->
 			<h1>Tableau Analysis</h1>
-            <i>Let's talk about some data!</i>
-            <br><br>
-            <!-- We can put charts, graphs, etc. here. -->
-            <!--End of the visualized data -->
-            <div class='tableauPlaceholder' id='viz1612828067039' style='position: relative'><noscript><a href='#'><img
-                            alt=' '
-                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CitiBikeAnalysis_16114028351290&#47;MapStartStations2020&#47;1_rss.png'
-                            style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-                    <param name='embed_code_version' value='3' />
-                    <param name='site_root' value='' />
-                    <param name='name' value='CitiBikeAnalysis_16114028351290&#47;MapStartStations2020' />
-                    <param name='tabs' value='no' />
-                    <param name='toolbar' value='yes' />
-                    <param name='static_image'
-                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CitiBikeAnalysis_16114028351290&#47;MapStartStations2020&#47;1.png' />
-                    <param name='animate_transition' value='yes' />
-                    <param name='display_static_image' value='yes' />
-                    <param name='display_spinner' value='yes' />
-                    <param name='display_overlay' value='yes' />
-                    <param name='display_count' value='yes' />
-                    <param name='language' value='en' />
-                </object></div>
-            <script
-                type='text/javascript'>                    var divElement = document.getElementById('viz1612828067039'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        </div>
-    </div>
+			<i>Let's talk about some data! If i write more will this expand? lets keep writing and see what happens.
+				might have to be extra long to find out.</i>
+			<br><br>
+		</div>
+	</div>
+	<!-- We can put charts, graphs, etc. here. -->
+	<!--End of the visualized data -->
+	<div class="row my-row">
+		<div class="col-md-12 my-col" id="body">
+			<div class='tableauPlaceholder' id='viz1612828067039' style='position: relative'><noscript><a href='#'><img
+							alt=' '
+							src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CitiBikeAnalysis_16114028351290&#47;MapStartStations2020&#47;1_rss.png'
+							style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+					<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+					<param name='embed_code_version' value='3' />
+					<param name='site_root' value='' />
+					<param name='name' value='CitiBikeAnalysis_16114028351290&#47;MapStartStations2020' />
+					<param name='tabs' value='no' />
+					<param name='toolbar' value='yes' />
+					<param name='static_image'
+						value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CitiBikeAnalysis_16114028351290&#47;MapStartStations2020&#47;1.png' />
+					<param name='animate_transition' value='yes' />
+					<param name='display_static_image' value='yes' />
+					<param name='display_spinner' value='yes' />
+					<param name='display_overlay' value='yes' />
+					<param name='display_count' value='yes' />
+					<param name='language' value='en' />
+				</object></div>
+			<script
+				type='text/javascript'>                    var divElement = document.getElementById('viz1612828067039'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '98%'; vizElement.style.height = (divElement.offsetWidth * 0.65) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+		</div>
+	</div>
 
-    <div class="row my-row">
+	<div class="row my-row">
 		<div class="col-md-12 my-col" id="body2">
 
 			<!--Insert text for visualized data explanation here-->
@@ -82,7 +100,7 @@
 		</div>
 	</div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 		crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -92,4 +110,5 @@
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 		crossorigin="anonymous"></script>
 </body>
+
 </html>
