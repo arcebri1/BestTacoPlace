@@ -33,3 +33,7 @@ Using win/lose outcome as a predictor will be more accurate than using team name
 ### Abbreviations
 * SVM: support vector machine
 * KNN: k-nearest neighbors 
+
+### Data Resources
+* [http://nba.com](https://www.nba.com/stats/teams/traditional/?PerMode=Totals&sort=TEAM_NAME&dir=-1&Season=2013-14&SeasonType=Regular%20Season)
+* [NBA Team Game Stats from 2014 to 2018](https://www.kaggle.com/ionaskel/nba-games-stats-from-2014-to-2018)
