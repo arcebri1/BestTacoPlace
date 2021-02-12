@@ -7,7 +7,7 @@
 
 ![Residual plot](https://github.com/arcebri1/FinalProject/blob/fyc_analysis/NBA_Model_Img/01_LinearRegression.png?raw=true)
 
-* [Script link](https://github.com/arcebri1/FinalProject/blob/fyc_analysis/NBA_ML_Scripts/01_Linear_Regression_winning_rate_predictions.ipynb)
+* [Script link: Linear Regression](https://github.com/arcebri1/FinalProject/blob/fyc_analysis/NBA_ML_Scripts/01_Linear_Regression_winning_rate_predictions.ipynb)
 
 ### Using `WINorLOSS` as a predicator
 * `Random Forest` model suggests `Team points` and `Opponent Points` are the most important facotrs.
@@ -26,7 +26,7 @@
 
 * [Script link: RF Model 1](https://github.com/arcebri1/FinalProject/blob/fyc_analysis/NBA_ML_Scripts/06_Random_Forest_team_predictions.ipynb)
 * [Script link: RF Model 2](https://github.com/arcebri1/FinalProject/blob/fyc_analysis/NBA_ML_Scripts/07_Random_Forest_team_predictions.ipynb)
-* [Script link: LR](https://github.com/arcebri1/FinalProject/blob/fyc_analysis/NBA_ML_Scripts/04_Logistic_Regression_team_predictions.ipynb)
+* [Script link: Logistic Regression](https://github.com/arcebri1/FinalProject/blob/fyc_analysis/NBA_ML_Scripts/04_Logistic_Regression_team_predictions.ipynb)
 * [Script link: SVM and KNN](https://github.com/arcebri1/FinalProject/blob/fyc_analysis/NBA_ML_Scripts/05_SVM_KNN_team_predictions.ipynb)
 
 ### Summary
