@@ -1,0 +1,40 @@
+ /* .navbar {
+    background-color: black;
+}  */
+
+
+.navbar-brand {
+    color: #ffdf26 !important;
+    font-style: italic;
+    font-weight: 500;
+} 
+
+.nav-link {
+    color: #ffdf26 !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+i {
+    color: orangered;
+}
+
+.tableauPlaceholder {
+
+    /* padding-right: 20px; */
+    padding-left: 40px;
+    /* padding-top: 20px;
+    padding-bottom: 500px; */
+}
+
+.row {
+    padding: 2rem 0;
+  }
+
+/* #body {
+    height: 300px;
+    width: 200px;
+} */
+
+

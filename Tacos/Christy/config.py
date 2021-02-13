@@ -1,3 +1,0 @@
-api_key = "x4k4Sr2AsEef3FkW-R0aotrAaxANzcjvf_W9iUI1dQGNOoqcYDQOX1hPyX8wcLjwxCIJ_-UAF3pzM0MrVnd4iRl0ra04amEKAK3OVT9RwjE6ytZGf_pRCLt1sL4cYHYx"
-
-client_id_yelp = "gHLL75R-K8KFjVe5w2TXkg"
